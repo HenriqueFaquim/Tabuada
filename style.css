@@ -1,0 +1,61 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+    background: #303030;
+}
+
+#logo{
+    width: 100%;
+}
+
+#logo img{
+    justify-content: start;
+    margin-bottom: 25px;
+}
+
+#logo h1{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+#interactive{
+    text-align: center;
+    background-color: lightgray;
+    margin: 0 17%;
+    border-radius: 50px;
+    font-weight: normal;
+}
+
+#interactive input{
+    margin-bottom: 30px;
+}
+
+.inputNumber{
+    width: 205px;
+    height: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: azure;
+    text-align: center;
+}
+
+#Bnt{
+    width: 155px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+
